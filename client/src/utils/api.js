@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://layout-agent-2mz8.onrender.com',
   timeout: 60000, // LLM calls can be slow
 });
 
